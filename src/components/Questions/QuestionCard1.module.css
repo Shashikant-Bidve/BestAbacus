@@ -1,0 +1,48 @@
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .number {
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .sign {
+    font-size: 22px;
+    margin-right: 5px;
+  }
+  
+  .dash {
+    margin: 15px 0;
+    margin-left: 15px;
+    border: none;
+    border-top: 3px solid #555;
+    width: 80%;
+    height: 0px;
+  }
+  
+  .input {
+    width: 100px;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
