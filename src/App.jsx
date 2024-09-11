@@ -2,7 +2,7 @@ import Level from "./components/Level/Level.jsx"
 import Lvl1 from "./components/Levels/Lvl1.jsx"
 import Navbar from "./components/Navbar/Navbar"
 import { Route, Routes, useNavigate } from "react-router-dom"
-import Sheet1 from "./components/Sheets/sheet1.jsx"
+import Sheet1 from "./components/Sheets/Sheet1.jsx"
 
 
 
