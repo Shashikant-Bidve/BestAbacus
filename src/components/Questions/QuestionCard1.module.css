@@ -41,6 +41,14 @@
     transition: border-color 0.3s ease;
   }
   
+  .green{
+    background-color: lawngreen;
+  }
+
+  .red{
+    background-color: lightcoral;
+  }
+
   .input:focus {
     border-color: #007bff;
     outline: none;

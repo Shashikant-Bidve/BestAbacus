@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './QuestionCard1.module.css';
 
-const QuestionCard1 = ({ num1, num2, onAnswerChange, index }) => {
+const QuestionCard1 = ({ isCorrect = false,num1, num2, onAnswerChange, index}) => {
     return (
         <div className={styles.container}>
           <div className={styles.number}>
@@ -16,7 +16,7 @@ const QuestionCard1 = ({ num1, num2, onAnswerChange, index }) => {
           <input
             type="text"
             onChange={(e) => onAnswerChange(e.target.value, index)}
-            className={styles.input}
+            className={`${styles.input} ${isCorrect ? styles.green : styles.red}`}
           />
         </div>
       );
