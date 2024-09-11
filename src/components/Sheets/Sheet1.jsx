@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import QuestionCard1 from '../Questions/QuestionCard1';
+import QuestionCard1 from '../Questions/QuestionCard1.jsx';
 import questions from "../../json/lvl1/sheet1.json"
 import styles from "./Sheet1.module.css"
 import Result from '../Result.jsx';

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./Lvl1.module.css"
 import { Route, Routes, useNavigate } from 'react-router-dom'
-import Sheet1 from '../Sheets/sheet1';
+import Sheet1 from '../Sheets/sheet1.jsx';
 
 const Lvl1 = () => {
     const [display, setDisplay] = useState(true);
