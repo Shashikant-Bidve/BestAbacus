@@ -1,8 +1,8 @@
-import Level from "./components/Level/Level"
-import Lvl1 from "./components/Levels/Lvl1"
+import Level from "./components/Level/Level.jsx"
+import Lvl1 from "./components/Levels/Lvl1.jsx"
 import Navbar from "./components/Navbar/Navbar"
 import { Route, Routes, useNavigate } from "react-router-dom"
-import Sheet1 from "./components/Sheets/sheet1"
+import Sheet1 from "./components/Sheets/sheet1.jsx"
 
 
 
