@@ -5,6 +5,7 @@ import { Route, Routes, useNavigate } from "react-router-dom"
 import Sheet1 from "./components/Sheets/Sheet1.jsx"
 import Lvl3 from "./components/Levels/Lvl3.jsx"
 import Lvl3Sheet1 from "./components/Sheets/Lvl3Sheet1.jsx"
+import Lvl3Sheet2 from "./components/Sheets/Lvl3Sheet2.jsx"
 
 
 
@@ -21,7 +22,9 @@ function App() {
 
       <Route path="/lvl3" element={<Lvl3/>}>
       </Route>
-      <Route path="/lvl3/sheet1" element={<Lvl3Sheet1/>}></Route>
+      <Route path="/lvl3/sheet1" element={<Lvl3Sheet1/>}>
+      </Route>
+      <Route path="/lvl3/sheet2" element={<Lvl3Sheet2/>}></Route>
       
       
     </Routes>

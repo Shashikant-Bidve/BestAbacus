@@ -24,7 +24,7 @@
       {"num1": 36, "num2": 62, "num3": 31, "num4": 20, "answer": 149},
       {"num1": 14, "num2": 52, "num3": 32, "num4": 12, "answer": 110},
       {"num1": 14, "num2": 25, "num3": 32, "num4": 21, "answer": 92},
-      {"num1": 51, "num2": 21, "num3": 32, "num4": -23, "answer": 121},
+      {"num1": 51, "num2": 21, "num3": 32, "num4": -23, "answer": 81},
       {"num1": 63, "num2": 25, "num3": 14, "num4": 32, "answer": 134},
       {"num1": 50, "num2": 32, "num3": 12, "num4": 51, "answer": 145},
       {"num1": 14, "num2": 23, "num3": 66, "num4": 32, "answer": 135},
@@ -32,3 +32,4 @@
       {"num1": 14, "num2": 25, "num3": 55, "num4": 80, "answer": 174}
     ]
   }
+

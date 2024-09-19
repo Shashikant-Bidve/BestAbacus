@@ -28,9 +28,9 @@ const Lvl1 = () => {
         <button className={styles.button} >Worksheet 5</button>
         <button className={styles.button} >Worksheet 6</button>
     </div>}
-    <Routes>
+    {/* <Routes>
       <Route path='/lvl1/sheet1' element={<Sheet1/>}></Route>
-    </Routes>
+    </Routes> */}
     </>
   )
 }
